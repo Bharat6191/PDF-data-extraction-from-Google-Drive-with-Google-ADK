@@ -62,16 +62,15 @@ Follow these steps carefully:
 ## 🏗️ 2. Project Structure
 
 pdf-agent/
-├── venv
-├── main.py               # Entry point for the agent
-├── tools/
-│ ├── drive_reader.py     # Tool to read PDFs from Google Drive
-│ └── sheet_writer.py     # Tool to write data to Google Sheets
-├── service_account.json  # Service account credentials
-├── .gitignore
-├── .env
-└── requirements.txt 
-     # Python dependencies
+├── venv/                     # Virtual environment (not committed to Git)
+├── main.py                   # Entry point for the agent
+├── tools/                    # Custom tools for Google services
+│   ├── drive_reader.py       # Reads PDFs from Google Drive
+│   └── sheet_writer.py       # Writes data to Google Sheets
+├── service_account.json      # Google service account credentials
+├── .env                      # Environment variables
+├── .gitignore                # Git ignore file
+└── requirements.txt          # Python dependencies
 
 ## ⚙️ 3. Setup Instructions
 
