@@ -1,1 +1,4 @@
 p-agent/
+service_account.json
+__pycache__/
+.env
